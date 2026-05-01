@@ -27,16 +27,6 @@ Test your football knowledge with timed questions, track your score, and challen
 3. Earn points for correct answers
 4. View your final score
 
----
-
-## 🔧 Installation
-
-```bash
-git clone https://github.com/your-username/your-repo-name.git
-cd your-repo-name
-flutter pub get
-flutter run
-
 ## 🚀 Latest Updates
 
 ### 🎮 Gameplay Improvements
@@ -68,3 +58,13 @@ flutter run
 - Modular architecture with reusable widgets
 - Organized folders (screens, widgets, services, models)
 - Updated tests to match new app flow
+
+---
+
+## 🔧 Installation
+
+```bash
+git clone https://github.com/your-username/your-repo-name.git
+cd your-repo-name
+flutter pub get
+flutter run
