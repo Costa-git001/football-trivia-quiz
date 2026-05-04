@@ -1,0 +1,12 @@
+{
+  "name": "football-trivia-quiz-tools",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Utility scripts for Costa Trivia Quiz.",
+  "scripts": {
+    "upload:questions": "node scripts/upload_questions_to_firestore.js"
+  },
+  "dependencies": {
+    "firebase-admin": "^13.0.0"
+  }
+}

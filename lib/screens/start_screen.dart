@@ -1,7 +1,15 @@
+import 'dart:math';
+
 import 'package:flutter/material.dart';
 
 import '../data/questions.dart';
-import '../services/high_score_service.dart';
+import '../models/game_session.dart';
+import '../models/leaderboard_entry.dart';
+import '../models/question.dart';
+import '../services/leaderboard_service.dart';
+import '../services/question_service.dart';
+import '../widgets/leaderboard_card.dart';
+import '../widgets/selection_chip.dart';
 import 'quiz_screen.dart';
 
 class StartScreen extends StatefulWidget {
@@ -12,30 +20,84 @@ class StartScreen extends StatefulWidget {
 }
 
 class _StartScreenState extends State<StartScreen> {
-  final HighScoreService _highScoreService = HighScoreService();
-  int _highScore = 0;
+  static const int _maxQuestionsPerGame = 10;
+
+  final LeaderboardService _leaderboardService = LeaderboardService();
+  final QuestionService _questionService = QuestionService();
+  final TextEditingController _playerNameController = TextEditingController();
+
+  QuestionCategory? _selectedCategory;
+  QuestionDifficulty _selectedDifficulty = QuestionDifficulty.medium;
+  List<LeaderboardEntry> _leaderboard = [];
+  List<Question> _questions = footballQuestions;
+  bool _isLoadingQuestions = true;
 
   @override
   void initState() {
     super.initState();
-    _loadHighScore();
+    _loadLeaderboard();
+    _loadQuestions();
   }
 
-  Future<void> _loadHighScore() async {
-    final savedScore = await _highScoreService.loadHighScore();
+  @override
+  void dispose() {
+    _playerNameController.dispose();
+    super.dispose();
+  }
+
+  Future<void> _loadLeaderboard() async {
+    final entries = await _leaderboardService.loadLeaderboard();
 
     if (!mounted) return;
     setState(() {
-      _highScore = savedScore;
+      _leaderboard = entries;
     });
   }
 
+  Future<void> _loadQuestions() async {
+    final questions = await _questionService.loadQuestions();
+
+    if (!mounted) return;
+    setState(() {
+      _questions = questions;
+      _isLoadingQuestions = false;
+    });
+  }
+
+  bool _isAllowedDifficulty(Question question) {
+    return question.difficulty.index <= _selectedDifficulty.index;
+  }
+
+  List<Question> _buildRandomSessionQuestions() {
+    final matchingQuestions = _questions.where((question) {
+      final matchesCategory =
+          _selectedCategory == null || question.category == _selectedCategory;
+      return matchesCategory && _isAllowedDifficulty(question);
+    }).toList();
+
+    matchingQuestions.shuffle(Random());
+    return matchingQuestions.take(_maxQuestionsPerGame).toList();
+  }
+
   void _startGame() {
+    final questions = _buildRandomSessionQuestions();
+    final typedName = _playerNameController.text.trim();
+
+    if (questions.isEmpty) return;
+
     Navigator.of(context).push(
-      MaterialPageRoute(
-        builder: (_) => QuizScreen(
-          questions: footballQuestions,
-          onHighScoreChanged: _loadHighScore,
+      PageRouteBuilder(
+        pageBuilder: (_, animation, __) => FadeTransition(
+          opacity: animation,
+          child: QuizScreen(
+            session: GameSession(
+              playerName: typedName.isEmpty ? 'Player' : typedName,
+              category: _selectedCategory,
+              difficulty: _selectedDifficulty,
+              questions: questions,
+            ),
+            onLeaderboardChanged: _loadLeaderboard,
+          ),
         ),
       ),
     );
@@ -43,82 +105,229 @@ class _StartScreenState extends State<StartScreen> {
 
   @override
   Widget build(BuildContext context) {
+    final highScore = _leaderboard.isEmpty ? 0 : _leaderboard.first.score;
+
     return Scaffold(
       body: SafeArea(
-        child: Center(
-          child: Padding(
-            padding: const EdgeInsets.all(24),
-            child: Column(
-              mainAxisAlignment: MainAxisAlignment.center,
+        child: ListView(
+          padding: const EdgeInsets.all(24),
+          children: [
+            const SizedBox(height: 12),
+            const Icon(
+              Icons.sports_soccer,
+              size: 78,
+              color: Color(0xFF0F8A5F),
+            ),
+            const SizedBox(height: 18),
+            Text(
+              'Costa Trivia Quiz',
+              textAlign: TextAlign.center,
+              style: Theme.of(context).textTheme.headlineLarge?.copyWith(
+                    fontWeight: FontWeight.w900,
+                    color: const Color(0xFF102A43),
+                  ),
+            ),
+            const SizedBox(height: 8),
+            Text(
+              'Fast football questions. Bigger points for faster answers.',
+              textAlign: TextAlign.center,
+              style: Theme.of(context).textTheme.bodyLarge?.copyWith(
+                    color: const Color(0xFF52616B),
+                  ),
+            ),
+            const SizedBox(height: 22),
+            TextField(
+              controller: _playerNameController,
+              textInputAction: TextInputAction.done,
+              decoration: InputDecoration(
+                labelText: 'Player name',
+                hintText: 'Enter your name',
+                prefixIcon: const Icon(Icons.person_rounded),
+                filled: true,
+                fillColor: Colors.white,
+                border: OutlineInputBorder(
+                  borderRadius: BorderRadius.circular(16),
+                  borderSide: const BorderSide(color: Color(0xFFE1E8ED)),
+                ),
+              ),
+            ),
+            const SizedBox(height: 22),
+            _QuestionSourceBanner(
+              isLoading: _isLoadingQuestions,
+              questionCount: _questions.length,
+            ),
+            const SizedBox(height: 22),
+            const _SectionTitle(
+              icon: Icons.category_rounded,
+              title: 'Category',
+              subtitle: 'Choose a topic or play everything.',
+            ),
+            Wrap(
+              spacing: 8,
+              runSpacing: 8,
               children: [
-                const Icon(
-                  Icons.sports_soccer,
-                  size: 88,
-                  color: Color(0xFF0F8A5F),
+                SelectionChip(
+                  label: 'All',
+                  isSelected: _selectedCategory == null,
+                  onTap: () => setState(() => _selectedCategory = null),
                 ),
-                const SizedBox(height: 24),
-                Text(
-                  'Costa Trivia Quiz',
-                  textAlign: TextAlign.center,
-                  style: Theme.of(context).textTheme.headlineLarge?.copyWith(
-                        fontWeight: FontWeight.w800,
-                        color: const Color(0xFF102A43),
-                      ),
-                ),
-                const SizedBox(height: 12),
-                Text(
-                  'Test your football knowledge before the timer runs out.',
-                  textAlign: TextAlign.center,
-                  style: Theme.of(context).textTheme.bodyLarge?.copyWith(
-                        color: const Color(0xFF52616B),
-                      ),
-                ),
-                const SizedBox(height: 24),
-                Container(
-                  padding: const EdgeInsets.symmetric(
-                    horizontal: 18,
-                    vertical: 12,
-                  ),
-                  decoration: BoxDecoration(
-                    color: Colors.white,
-                    borderRadius: BorderRadius.circular(16),
-                    boxShadow: [
-                      BoxShadow(
-                        color: Colors.black.withValues(alpha: 0.08),
-                        blurRadius: 18,
-                        offset: const Offset(0, 8),
-                      ),
-                    ],
-                  ),
-                  child: Text(
-                    'High Score: $_highScore/${footballQuestions.length}',
-                    style: const TextStyle(
-                      fontSize: 18,
-                      fontWeight: FontWeight.w700,
-                      color: Color(0xFF0F8A5F),
-                    ),
-                  ),
-                ),
-                const SizedBox(height: 40),
-                SizedBox(
-                  width: double.infinity,
-                  height: 56,
-                  child: FilledButton.icon(
-                    onPressed: _startGame,
-                    icon: const Icon(Icons.play_arrow_rounded),
-                    label: const Text(
-                      'Start Game',
-                      style: TextStyle(
-                        fontSize: 18,
-                        fontWeight: FontWeight.w700,
-                      ),
-                    ),
+                ...QuestionCategory.values.map(
+                  (category) => SelectionChip(
+                    label: category.label,
+                    isSelected: _selectedCategory == category,
+                    onTap: () => setState(() => _selectedCategory = category),
                   ),
                 ),
               ],
             ),
-          ),
+            const SizedBox(height: 22),
+            const _SectionTitle(
+              icon: Icons.speed_rounded,
+              title: 'Difficulty',
+              subtitle: 'Higher levels include easier warm-up questions too.',
+            ),
+            Wrap(
+              spacing: 8,
+              runSpacing: 8,
+              children: QuestionDifficulty.values.map((difficulty) {
+                return SelectionChip(
+                  label: difficulty.label,
+                  isSelected: _selectedDifficulty == difficulty,
+                  onTap: () => setState(() => _selectedDifficulty = difficulty),
+                );
+              }).toList(),
+            ),
+            const SizedBox(height: 24),
+            Container(
+              padding: const EdgeInsets.all(18),
+              decoration: BoxDecoration(
+                color: const Color(0xFF0F8A5F),
+                borderRadius: BorderRadius.circular(16),
+              ),
+              child: Row(
+                children: [
+                  const Icon(Icons.emoji_events_rounded, color: Colors.white),
+                  const SizedBox(width: 12),
+                  Expanded(
+                    child: Text(
+                      'Best score: $highScore pts',
+                      style: const TextStyle(
+                        color: Colors.white,
+                        fontSize: 18,
+                        fontWeight: FontWeight.w900,
+                      ),
+                    ),
+                  ),
+                ],
+              ),
+            ),
+            const SizedBox(height: 18),
+            LeaderboardCard(entries: _leaderboard),
+            const SizedBox(height: 26),
+            SizedBox(
+              height: 56,
+              child: FilledButton.icon(
+                onPressed: _isLoadingQuestions ? null : _startGame,
+                icon: const Icon(Icons.play_arrow_rounded),
+                label: const Text(
+                  'Start Game',
+                  style: TextStyle(fontSize: 18, fontWeight: FontWeight.w800),
+                ),
+              ),
+            ),
+          ],
         ),
+      ),
+    );
+  }
+}
+
+class _SectionTitle extends StatelessWidget {
+  const _SectionTitle({
+    required this.icon,
+    required this.title,
+    required this.subtitle,
+  });
+
+  final IconData icon;
+  final String title;
+  final String subtitle;
+
+  @override
+  Widget build(BuildContext context) {
+    return Padding(
+      padding: const EdgeInsets.only(bottom: 10),
+      child: Row(
+        crossAxisAlignment: CrossAxisAlignment.start,
+        children: [
+          Icon(icon, color: const Color(0xFF0F8A5F)),
+          const SizedBox(width: 8),
+          Expanded(
+            child: Column(
+              crossAxisAlignment: CrossAxisAlignment.start,
+              children: [
+                Text(
+                  title,
+                  style: const TextStyle(
+                    fontSize: 16,
+                    fontWeight: FontWeight.w900,
+                    color: Color(0xFF102A43),
+                  ),
+                ),
+                Text(
+                  subtitle,
+                  style: const TextStyle(color: Color(0xFF52616B)),
+                ),
+              ],
+            ),
+          ),
+        ],
+      ),
+    );
+  }
+}
+
+class _QuestionSourceBanner extends StatelessWidget {
+  const _QuestionSourceBanner({
+    required this.isLoading,
+    required this.questionCount,
+  });
+
+  final bool isLoading;
+  final int questionCount;
+
+  @override
+  Widget build(BuildContext context) {
+    return Container(
+      padding: const EdgeInsets.all(14),
+      decoration: BoxDecoration(
+        color: Colors.white,
+        borderRadius: BorderRadius.circular(16),
+        border: Border.all(color: const Color(0xFFE1E8ED)),
+      ),
+      child: Row(
+        children: [
+          if (isLoading)
+            const SizedBox(
+              width: 20,
+              height: 20,
+              child: CircularProgressIndicator(strokeWidth: 2),
+            )
+          else
+            const Icon(Icons.cloud_done_rounded, color: Color(0xFF0F8A5F)),
+          const SizedBox(width: 12),
+          Expanded(
+            child: Text(
+              isLoading
+                  ? 'Loading questions from Firestore...'
+                  : '$questionCount active questions ready',
+              style: const TextStyle(
+                color: Color(0xFF243B53),
+                fontWeight: FontWeight.w800,
+              ),
+            ),
+          ),
+        ],
       ),
     );
   }

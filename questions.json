@@ -1,0 +1,1952 @@
+[
+    {
+        "question":  "Which country won the 2022 FIFA World Cup?",
+        "options":  [
+                        "France",
+                        "Argentina",
+                        "Brazil",
+                        "Germany"
+                    ],
+        "answerIndex":  1,
+        "category":  "World Cup",
+        "difficulty":  "easy",
+        "isActive":  true
+    },
+    {
+        "question":  "Which country has won the most FIFA World Cups?",
+        "options":  [
+                        "Italy",
+                        "Argentina",
+                        "Brazil",
+                        "Spain"
+                    ],
+        "answerIndex":  2,
+        "category":  "World Cup",
+        "difficulty":  "easy",
+        "isActive":  true
+    },
+    {
+        "question":  "Which country hosted the 2010 FIFA World Cup?",
+        "options":  [
+                        "Brazil",
+                        "Germany",
+                        "South Africa",
+                        "Russia"
+                    ],
+        "answerIndex":  2,
+        "category":  "World Cup",
+        "difficulty":  "easy",
+        "isActive":  true
+    },
+    {
+        "question":  "Who scored the winning goal in the 2010 FIFA World Cup final?",
+        "options":  [
+                        "David Villa",
+                        "Andres Iniesta",
+                        "Xavi",
+                        "Fernando Torres"
+                    ],
+        "answerIndex":  1,
+        "category":  "World Cup",
+        "difficulty":  "medium",
+        "isActive":  true
+    },
+    {
+        "question":  "Which country won the 2018 FIFA World Cup?",
+        "options":  [
+                        "France",
+                        "Croatia",
+                        "Belgium",
+                        "Germany"
+                    ],
+        "answerIndex":  0,
+        "category":  "World Cup",
+        "difficulty":  "easy",
+        "isActive":  true
+    },
+    {
+        "question":  "Which nation did France beat in the 2018 FIFA World Cup final?",
+        "options":  [
+                        "Brazil",
+                        "Croatia",
+                        "Argentina",
+                        "Portugal"
+                    ],
+        "answerIndex":  1,
+        "category":  "World Cup",
+        "difficulty":  "easy",
+        "isActive":  true
+    },
+    {
+        "question":  "Which country won the first FIFA World Cup in 1930?",
+        "options":  [
+                        "Brazil",
+                        "Uruguay",
+                        "Argentina",
+                        "Italy"
+                    ],
+        "answerIndex":  1,
+        "category":  "World Cup",
+        "difficulty":  "medium",
+        "isActive":  true
+    },
+    {
+        "question":  "Which country hosted the first FIFA World Cup?",
+        "options":  [
+                        "Uruguay",
+                        "France",
+                        "England",
+                        "Brazil"
+                    ],
+        "answerIndex":  0,
+        "category":  "World Cup",
+        "difficulty":  "medium",
+        "isActive":  true
+    },
+    {
+        "question":  "Which country won the 2014 FIFA World Cup?",
+        "options":  [
+                        "Argentina",
+                        "Germany",
+                        "Netherlands",
+                        "Brazil"
+                    ],
+        "answerIndex":  1,
+        "category":  "World Cup",
+        "difficulty":  "easy",
+        "isActive":  true
+    },
+    {
+        "question":  "Who scored Germany\u0027s winning goal in the 2014 FIFA World Cup final?",
+        "options":  [
+                        "Thomas Muller",
+                        "Mario Gotze",
+                        "Miroslav Klose",
+                        "Mesut Ozil"
+                    ],
+        "answerIndex":  1,
+        "category":  "World Cup",
+        "difficulty":  "medium",
+        "isActive":  true
+    },
+    {
+        "question":  "Which country hosted the 2014 FIFA World Cup?",
+        "options":  [
+                        "South Africa",
+                        "Brazil",
+                        "Russia",
+                        "Qatar"
+                    ],
+        "answerIndex":  1,
+        "category":  "World Cup",
+        "difficulty":  "easy",
+        "isActive":  true
+    },
+    {
+        "question":  "Which country won the 2006 FIFA World Cup?",
+        "options":  [
+                        "France",
+                        "Italy",
+                        "Germany",
+                        "Spain"
+                    ],
+        "answerIndex":  1,
+        "category":  "World Cup",
+        "difficulty":  "easy",
+        "isActive":  true
+    },
+    {
+        "question":  "Which player won the Golden Ball at the 2014 FIFA World Cup?",
+        "options":  [
+                        "Lionel Messi",
+                        "Neymar",
+                        "James Rodriguez",
+                        "Thomas Muller"
+                    ],
+        "answerIndex":  0,
+        "category":  "World Cup",
+        "difficulty":  "medium",
+        "isActive":  true
+    },
+    {
+        "question":  "Which player won the Golden Boot at the 2014 FIFA World Cup?",
+        "options":  [
+                        "Lionel Messi",
+                        "James Rodriguez",
+                        "Thomas Muller",
+                        "Neymar"
+                    ],
+        "answerIndex":  1,
+        "category":  "World Cup",
+        "difficulty":  "medium",
+        "isActive":  true
+    },
+    {
+        "question":  "Which country won the 1998 FIFA World Cup?",
+        "options":  [
+                        "Brazil",
+                        "France",
+                        "Italy",
+                        "Netherlands"
+                    ],
+        "answerIndex":  1,
+        "category":  "World Cup",
+        "difficulty":  "easy",
+        "isActive":  true
+    },
+    {
+        "question":  "Which country hosted the 1998 FIFA World Cup?",
+        "options":  [
+                        "France",
+                        "Japan",
+                        "Germany",
+                        "United States"
+                    ],
+        "answerIndex":  0,
+        "category":  "World Cup",
+        "difficulty":  "easy",
+        "isActive":  true
+    },
+    {
+        "question":  "Which country won the 2002 FIFA World Cup?",
+        "options":  [
+                        "Germany",
+                        "Brazil",
+                        "France",
+                        "Italy"
+                    ],
+        "answerIndex":  1,
+        "category":  "World Cup",
+        "difficulty":  "easy",
+        "isActive":  true
+    },
+    {
+        "question":  "Which two countries co-hosted the 2002 FIFA World Cup?",
+        "options":  [
+                        "Japan and South Korea",
+                        "China and Japan",
+                        "Germany and France",
+                        "Brazil and Argentina"
+                    ],
+        "answerIndex":  0,
+        "category":  "World Cup",
+        "difficulty":  "medium",
+        "isActive":  true
+    },
+    {
+        "question":  "Which country won the 1986 FIFA World Cup?",
+        "options":  [
+                        "Argentina",
+                        "West Germany",
+                        "Brazil",
+                        "France"
+                    ],
+        "answerIndex":  0,
+        "category":  "World Cup",
+        "difficulty":  "medium",
+        "isActive":  true
+    },
+    {
+        "question":  "Who scored the famous Hand of God goal in 1986?",
+        "options":  [
+                        "Pele",
+                        "Diego Maradona",
+                        "Michel Platini",
+                        "Gary Lineker"
+                    ],
+        "answerIndex":  1,
+        "category":  "Players",
+        "difficulty":  "easy",
+        "isActive":  true
+    },
+    {
+        "question":  "Which club has won the most UEFA Champions League titles?",
+        "options":  [
+                        "AC Milan",
+                        "Real Madrid",
+                        "Liverpool",
+                        "Bayern Munich"
+                    ],
+        "answerIndex":  1,
+        "category":  "Champions League",
+        "difficulty":  "easy",
+        "isActive":  true
+    },
+    {
+        "question":  "Which club won the first UEFA Champions League title in 1992-93?",
+        "options":  [
+                        "Barcelona",
+                        "AC Milan",
+                        "Marseille",
+                        "Ajax"
+                    ],
+        "answerIndex":  2,
+        "category":  "Champions League",
+        "difficulty":  "hard",
+        "isActive":  true
+    },
+    {
+        "question":  "Which club came back from 3-0 down to win the 2005 Champions League final?",
+        "options":  [
+                        "Liverpool",
+                        "Chelsea",
+                        "Manchester United",
+                        "Porto"
+                    ],
+        "answerIndex":  0,
+        "category":  "Champions League",
+        "difficulty":  "medium",
+        "isActive":  true
+    },
+    {
+        "question":  "Which Italian club lost the 2005 Champions League final after leading 3-0?",
+        "options":  [
+                        "Juventus",
+                        "Inter Milan",
+                        "AC Milan",
+                        "Roma"
+                    ],
+        "answerIndex":  2,
+        "category":  "Champions League",
+        "difficulty":  "medium",
+        "isActive":  true
+    },
+    {
+        "question":  "Which club won the 2012 Champions League final against Bayern Munich?",
+        "options":  [
+                        "Chelsea",
+                        "Barcelona",
+                        "Real Madrid",
+                        "Manchester United"
+                    ],
+        "answerIndex":  0,
+        "category":  "Champions League",
+        "difficulty":  "medium",
+        "isActive":  true
+    },
+    {
+        "question":  "Which club won three straight Champions League titles from 2016 to 2018?",
+        "options":  [
+                        "Barcelona",
+                        "Real Madrid",
+                        "Bayern Munich",
+                        "Liverpool"
+                    ],
+        "answerIndex":  1,
+        "category":  "Champions League",
+        "difficulty":  "easy",
+        "isActive":  true
+    },
+    {
+        "question":  "Who managed Real Madrid during their Champions League three-peat from 2016 to 2018?",
+        "options":  [
+                        "Jose Mourinho",
+                        "Carlo Ancelotti",
+                        "Zinedine Zidane",
+                        "Rafael Benitez"
+                    ],
+        "answerIndex":  2,
+        "category":  "Champions League",
+        "difficulty":  "medium",
+        "isActive":  true
+    },
+    {
+        "question":  "Which club won the 2019 Champions League final?",
+        "options":  [
+                        "Tottenham Hotspur",
+                        "Liverpool",
+                        "Ajax",
+                        "Barcelona"
+                    ],
+        "answerIndex":  1,
+        "category":  "Champions League",
+        "difficulty":  "easy",
+        "isActive":  true
+    },
+    {
+        "question":  "Which club did Liverpool beat in the 2019 Champions League final?",
+        "options":  [
+                        "Real Madrid",
+                        "Tottenham Hotspur",
+                        "Manchester City",
+                        "Chelsea"
+                    ],
+        "answerIndex":  1,
+        "category":  "Champions League",
+        "difficulty":  "easy",
+        "isActive":  true
+    },
+    {
+        "question":  "Which club won the 2020 Champions League final?",
+        "options":  [
+                        "Paris Saint-Germain",
+                        "Bayern Munich",
+                        "Chelsea",
+                        "Manchester City"
+                    ],
+        "answerIndex":  1,
+        "category":  "Champions League",
+        "difficulty":  "easy",
+        "isActive":  true
+    },
+    {
+        "question":  "Which club won the 2021 Champions League final?",
+        "options":  [
+                        "Manchester City",
+                        "Chelsea",
+                        "Real Madrid",
+                        "Liverpool"
+                    ],
+        "answerIndex":  1,
+        "category":  "Champions League",
+        "difficulty":  "easy",
+        "isActive":  true
+    },
+    {
+        "question":  "Who scored Chelsea\u0027s winning goal in the 2021 Champions League final?",
+        "options":  [
+                        "Mason Mount",
+                        "Kai Havertz",
+                        "Timo Werner",
+                        "N\u0027Golo Kante"
+                    ],
+        "answerIndex":  1,
+        "category":  "Champions League",
+        "difficulty":  "medium",
+        "isActive":  true
+    },
+    {
+        "question":  "Which club won the 2022 Champions League final?",
+        "options":  [
+                        "Liverpool",
+                        "Real Madrid",
+                        "Chelsea",
+                        "Bayern Munich"
+                    ],
+        "answerIndex":  1,
+        "category":  "Champions League",
+        "difficulty":  "easy",
+        "isActive":  true
+    },
+    {
+        "question":  "Who scored Real Madrid\u0027s winning goal in the 2022 Champions League final?",
+        "options":  [
+                        "Karim Benzema",
+                        "Vinicius Junior",
+                        "Luka Modric",
+                        "Rodrygo"
+                    ],
+        "answerIndex":  1,
+        "category":  "Champions League",
+        "difficulty":  "medium",
+        "isActive":  true
+    },
+    {
+        "question":  "Which club won the 2023 Champions League final?",
+        "options":  [
+                        "Inter Milan",
+                        "Manchester City",
+                        "Real Madrid",
+                        "Bayern Munich"
+                    ],
+        "answerIndex":  1,
+        "category":  "Champions League",
+        "difficulty":  "easy",
+        "isActive":  true
+    },
+    {
+        "question":  "Who scored Manchester City\u0027s goal in the 2023 Champions League final?",
+        "options":  [
+                        "Kevin De Bruyne",
+                        "Erling Haaland",
+                        "Rodri",
+                        "Phil Foden"
+                    ],
+        "answerIndex":  2,
+        "category":  "Champions League",
+        "difficulty":  "medium",
+        "isActive":  true
+    },
+    {
+        "question":  "Which shape is featured in the Champions League logo?",
+        "options":  [
+                        "A star ball",
+                        "A crown",
+                        "A shield",
+                        "A lion"
+                    ],
+        "answerIndex":  0,
+        "category":  "Champions League",
+        "difficulty":  "easy",
+        "isActive":  true
+    },
+    {
+        "question":  "Which team is nicknamed The Red Devils?",
+        "options":  [
+                        "Liverpool",
+                        "Manchester United",
+                        "Arsenal",
+                        "AC Milan"
+                    ],
+        "answerIndex":  1,
+        "category":  "Premier League",
+        "difficulty":  "easy",
+        "isActive":  true
+    },
+    {
+        "question":  "How many clubs play in a Premier League season?",
+        "options":  [
+                        "16",
+                        "18",
+                        "20",
+                        "22"
+                    ],
+        "answerIndex":  2,
+        "category":  "Premier League",
+        "difficulty":  "easy",
+        "isActive":  true
+    },
+    {
+        "question":  "Which club went unbeaten in the 2003-04 Premier League season?",
+        "options":  [
+                        "Chelsea",
+                        "Arsenal",
+                        "Manchester City",
+                        "Leicester City"
+                    ],
+        "answerIndex":  1,
+        "category":  "Premier League",
+        "difficulty":  "medium",
+        "isActive":  true
+    },
+    {
+        "question":  "What nickname is given to Arsenal\u0027s unbeaten 2003-04 team?",
+        "options":  [
+                        "The Centurions",
+                        "The Invincibles",
+                        "The Treble Winners",
+                        "The Galacticos"
+                    ],
+        "answerIndex":  1,
+        "category":  "Premier League",
+        "difficulty":  "easy",
+        "isActive":  true
+    },
+    {
+        "question":  "Which club won the Premier League in the 2015-16 season?",
+        "options":  [
+                        "Tottenham Hotspur",
+                        "Chelsea",
+                        "Leicester City",
+                        "Liverpool"
+                    ],
+        "answerIndex":  2,
+        "category":  "Premier League",
+        "difficulty":  "easy",
+        "isActive":  true
+    },
+    {
+        "question":  "Who managed Leicester City during their 2015-16 Premier League title win?",
+        "options":  [
+                        "Claudio Ranieri",
+                        "Brendan Rodgers",
+                        "Jose Mourinho",
+                        "Rafael Benitez"
+                    ],
+        "answerIndex":  0,
+        "category":  "Premier League",
+        "difficulty":  "medium",
+        "isActive":  true
+    },
+    {
+        "question":  "Which club is nicknamed The Blues?",
+        "options":  [
+                        "Chelsea",
+                        "Arsenal",
+                        "Liverpool",
+                        "Tottenham Hotspur"
+                    ],
+        "answerIndex":  0,
+        "category":  "Premier League",
+        "difficulty":  "easy",
+        "isActive":  true
+    },
+    {
+        "question":  "Which Premier League club plays home matches at Anfield?",
+        "options":  [
+                        "Everton",
+                        "Liverpool",
+                        "Manchester United",
+                        "Newcastle United"
+                    ],
+        "answerIndex":  1,
+        "category":  "Premier League",
+        "difficulty":  "easy",
+        "isActive":  true
+    },
+    {
+        "question":  "Which Premier League club plays home matches at Stamford Bridge?",
+        "options":  [
+                        "Chelsea",
+                        "Fulham",
+                        "West Ham United",
+                        "Crystal Palace"
+                    ],
+        "answerIndex":  0,
+        "category":  "Premier League",
+        "difficulty":  "easy",
+        "isActive":  true
+    },
+    {
+        "question":  "Which Premier League club plays home matches at the Emirates Stadium?",
+        "options":  [
+                        "Arsenal",
+                        "Tottenham Hotspur",
+                        "Chelsea",
+                        "West Ham United"
+                    ],
+        "answerIndex":  0,
+        "category":  "Premier League",
+        "difficulty":  "easy",
+        "isActive":  true
+    },
+    {
+        "question":  "Which club won the Premier League with 100 points in 2017-18?",
+        "options":  [
+                        "Liverpool",
+                        "Manchester City",
+                        "Chelsea",
+                        "Manchester United"
+                    ],
+        "answerIndex":  1,
+        "category":  "Premier League",
+        "difficulty":  "medium",
+        "isActive":  true
+    },
+    {
+        "question":  "What nickname is often used for Manchester City\u0027s 2017-18 title-winning team?",
+        "options":  [
+                        "The Invincibles",
+                        "The Centurions",
+                        "The Treble Lions",
+                        "The Busby Babes"
+                    ],
+        "answerIndex":  1,
+        "category":  "Premier League",
+        "difficulty":  "medium",
+        "isActive":  true
+    },
+    {
+        "question":  "Which club won the first Premier League season in 1992-93?",
+        "options":  [
+                        "Arsenal",
+                        "Manchester United",
+                        "Blackburn Rovers",
+                        "Leeds United"
+                    ],
+        "answerIndex":  1,
+        "category":  "Premier League",
+        "difficulty":  "medium",
+        "isActive":  true
+    },
+    {
+        "question":  "Which club won the Premier League in 1994-95?",
+        "options":  [
+                        "Manchester United",
+                        "Blackburn Rovers",
+                        "Newcastle United",
+                        "Arsenal"
+                    ],
+        "answerIndex":  1,
+        "category":  "Premier League",
+        "difficulty":  "medium",
+        "isActive":  true
+    },
+    {
+        "question":  "Which manager led Manchester United to 13 Premier League titles?",
+        "options":  [
+                        "Sir Alex Ferguson",
+                        "Arsene Wenger",
+                        "Jose Mourinho",
+                        "Pep Guardiola"
+                    ],
+        "answerIndex":  0,
+        "category":  "Premier League",
+        "difficulty":  "easy",
+        "isActive":  true
+    },
+    {
+        "question":  "Which club is nicknamed The Magpies?",
+        "options":  [
+                        "Newcastle United",
+                        "Fulham",
+                        "Brighton",
+                        "Burnley"
+                    ],
+        "answerIndex":  0,
+        "category":  "Premier League",
+        "difficulty":  "easy",
+        "isActive":  true
+    },
+    {
+        "question":  "Which club is nicknamed The Hammers?",
+        "options":  [
+                        "West Ham United",
+                        "Aston Villa",
+                        "Everton",
+                        "Wolves"
+                    ],
+        "answerIndex":  0,
+        "category":  "Premier League",
+        "difficulty":  "easy",
+        "isActive":  true
+    },
+    {
+        "question":  "Which club is nicknamed The Toffees?",
+        "options":  [
+                        "Everton",
+                        "Leeds United",
+                        "Crystal Palace",
+                        "Brentford"
+                    ],
+        "answerIndex":  0,
+        "category":  "Premier League",
+        "difficulty":  "easy",
+        "isActive":  true
+    },
+    {
+        "question":  "Which stadium is home to Manchester United?",
+        "options":  [
+                        "Old Trafford",
+                        "Anfield",
+                        "Etihad Stadium",
+                        "Villa Park"
+                    ],
+        "answerIndex":  0,
+        "category":  "Premier League",
+        "difficulty":  "easy",
+        "isActive":  true
+    },
+    {
+        "question":  "Which stadium is home to Tottenham Hotspur?",
+        "options":  [
+                        "Tottenham Hotspur Stadium",
+                        "Goodison Park",
+                        "Craven Cottage",
+                        "Selhurst Park"
+                    ],
+        "answerIndex":  0,
+        "category":  "Premier League",
+        "difficulty":  "easy",
+        "isActive":  true
+    },
+    {
+        "question":  "Which player is known as The King of Football?",
+        "options":  [
+                        "Pele",
+                        "Zinedine Zidane",
+                        "Andres Iniesta",
+                        "Kylian Mbappe"
+                    ],
+        "answerIndex":  0,
+        "category":  "Players",
+        "difficulty":  "easy",
+        "isActive":  true
+    },
+    {
+        "question":  "Which player is famous for the Siu celebration?",
+        "options":  [
+                        "Neymar",
+                        "Cristiano Ronaldo",
+                        "Erling Haaland",
+                        "Mohamed Salah"
+                    ],
+        "answerIndex":  1,
+        "category":  "Players",
+        "difficulty":  "easy",
+        "isActive":  true
+    },
+    {
+        "question":  "Which player won the Ballon d\u0027Or in 2018?",
+        "options":  [
+                        "Cristiano Ronaldo",
+                        "Lionel Messi",
+                        "Luka Modric",
+                        "Kylian Mbappe"
+                    ],
+        "answerIndex":  2,
+        "category":  "Players",
+        "difficulty":  "medium",
+        "isActive":  true
+    },
+    {
+        "question":  "Which player won the Ballon d\u0027Or in 2005?",
+        "options":  [
+                        "Ronaldinho",
+                        "Kaka",
+                        "Andriy Shevchenko",
+                        "Zinedine Zidane"
+                    ],
+        "answerIndex":  0,
+        "category":  "Players",
+        "difficulty":  "medium",
+        "isActive":  true
+    },
+    {
+        "question":  "Which player won the Ballon d\u0027Or in 2007?",
+        "options":  [
+                        "Cristiano Ronaldo",
+                        "Lionel Messi",
+                        "Kaka",
+                        "Fabio Cannavaro"
+                    ],
+        "answerIndex":  2,
+        "category":  "Players",
+        "difficulty":  "medium",
+        "isActive":  true
+    },
+    {
+        "question":  "Which player won the Ballon d\u0027Or in 2006?",
+        "options":  [
+                        "Fabio Cannavaro",
+                        "Ronaldinho",
+                        "Thierry Henry",
+                        "Kaka"
+                    ],
+        "answerIndex":  0,
+        "category":  "Players",
+        "difficulty":  "hard",
+        "isActive":  true
+    },
+    {
+        "question":  "Which goalkeeper won the Golden Glove at the 2022 World Cup?",
+        "options":  [
+                        "Hugo Lloris",
+                        "Emiliano Martinez",
+                        "Yassine Bounou",
+                        "Alisson"
+                    ],
+        "answerIndex":  1,
+        "category":  "Players",
+        "difficulty":  "medium",
+        "isActive":  true
+    },
+    {
+        "question":  "Which player is nicknamed The Egyptian King by Liverpool fans?",
+        "options":  [
+                        "Mohamed Salah",
+                        "Sadio Mane",
+                        "Riyad Mahrez",
+                        "Hakim Ziyech"
+                    ],
+        "answerIndex":  0,
+        "category":  "Players",
+        "difficulty":  "easy",
+        "isActive":  true
+    },
+    {
+        "question":  "Which player is commonly associated with the number 10 shirt for Argentina?",
+        "options":  [
+                        "Sergio Aguero",
+                        "Lionel Messi",
+                        "Angel Di Maria",
+                        "Javier Mascherano"
+                    ],
+        "answerIndex":  1,
+        "category":  "Players",
+        "difficulty":  "easy",
+        "isActive":  true
+    },
+    {
+        "question":  "Which Brazilian legend won three FIFA World Cups as a player?",
+        "options":  [
+                        "Ronaldo",
+                        "Romario",
+                        "Pele",
+                        "Ronaldinho"
+                    ],
+        "answerIndex":  2,
+        "category":  "Players",
+        "difficulty":  "medium",
+        "isActive":  true
+    },
+    {
+        "question":  "Which German striker became the all-time top scorer in World Cup history in 2014?",
+        "options":  [
+                        "Miroslav Klose",
+                        "Gerd Muller",
+                        "Thomas Muller",
+                        "Jurgen Klinsmann"
+                    ],
+        "answerIndex":  0,
+        "category":  "Players",
+        "difficulty":  "medium",
+        "isActive":  true
+    },
+    {
+        "question":  "Which player scored a hat-trick in the 1966 World Cup final?",
+        "options":  [
+                        "Bobby Charlton",
+                        "Geoff Hurst",
+                        "Eusebio",
+                        "Pele"
+                    ],
+        "answerIndex":  1,
+        "category":  "Players",
+        "difficulty":  "hard",
+        "isActive":  true
+    },
+    {
+        "question":  "Which player was known as El Fenomeno?",
+        "options":  [
+                        "Ronaldo Nazario",
+                        "Ronaldinho",
+                        "Romario",
+                        "Rivaldo"
+                    ],
+        "answerIndex":  0,
+        "category":  "Players",
+        "difficulty":  "medium",
+        "isActive":  true
+    },
+    {
+        "question":  "Which French player scored twice in the 1998 World Cup final?",
+        "options":  [
+                        "Thierry Henry",
+                        "Zinedine Zidane",
+                        "David Trezeguet",
+                        "Patrick Vieira"
+                    ],
+        "answerIndex":  1,
+        "category":  "Players",
+        "difficulty":  "medium",
+        "isActive":  true
+    },
+    {
+        "question":  "Which player is known for the Panenka penalty style?",
+        "options":  [
+                        "Antonin Panenka",
+                        "Andrea Pirlo",
+                        "Francesco Totti",
+                        "Johan Cruyff"
+                    ],
+        "answerIndex":  0,
+        "category":  "Players",
+        "difficulty":  "hard",
+        "isActive":  true
+    },
+    {
+        "question":  "Which Dutch legend gave his name to the Cruyff Turn?",
+        "options":  [
+                        "Johan Cruyff",
+                        "Marco van Basten",
+                        "Ruud Gullit",
+                        "Dennis Bergkamp"
+                    ],
+        "answerIndex":  0,
+        "category":  "Players",
+        "difficulty":  "easy",
+        "isActive":  true
+    },
+    {
+        "question":  "Which player is strongly associated with the phrase tiki-taka at Barcelona and Spain?",
+        "options":  [
+                        "Xavi",
+                        "Wayne Rooney",
+                        "Didier Drogba",
+                        "Gareth Bale"
+                    ],
+        "answerIndex":  0,
+        "category":  "Players",
+        "difficulty":  "medium",
+        "isActive":  true
+    },
+    {
+        "question":  "How many players does one football team have on the pitch at the start of a match?",
+        "options":  [
+                        "9",
+                        "10",
+                        "11",
+                        "12"
+                    ],
+        "answerIndex":  2,
+        "category":  "Rules",
+        "difficulty":  "easy",
+        "isActive":  true
+    },
+    {
+        "question":  "What color card sends a player off the field?",
+        "options":  [
+                        "Blue",
+                        "Green",
+                        "Yellow",
+                        "Red"
+                    ],
+        "answerIndex":  3,
+        "category":  "Rules",
+        "difficulty":  "easy",
+        "isActive":  true
+    },
+    {
+        "question":  "What is awarded when a defending player commits a direct free-kick foul inside their penalty area?",
+        "options":  [
+                        "Corner kick",
+                        "Throw-in",
+                        "Penalty kick",
+                        "Goal kick"
+                    ],
+        "answerIndex":  2,
+        "category":  "Rules",
+        "difficulty":  "easy",
+        "isActive":  true
+    },
+    {
+        "question":  "What does VAR stand for?",
+        "options":  [
+                        "Video Assistant Referee",
+                        "Virtual Attack Rating",
+                        "Verified Action Replay",
+                        "Visual Arena Review"
+                    ],
+        "answerIndex":  0,
+        "category":  "Rules",
+        "difficulty":  "easy",
+        "isActive":  true
+    },
+    {
+        "question":  "How long is a standard professional football match, excluding added time?",
+        "options":  [
+                        "80 minutes",
+                        "90 minutes",
+                        "100 minutes",
+                        "120 minutes"
+                    ],
+        "answerIndex":  1,
+        "category":  "Rules",
+        "difficulty":  "easy",
+        "isActive":  true
+    },
+    {
+        "question":  "How many halves are in a standard football match?",
+        "options":  [
+                        "1",
+                        "2",
+                        "3",
+                        "4"
+                    ],
+        "answerIndex":  1,
+        "category":  "Rules",
+        "difficulty":  "easy",
+        "isActive":  true
+    },
+    {
+        "question":  "How long is each half in a standard professional football match?",
+        "options":  [
+                        "30 minutes",
+                        "35 minutes",
+                        "40 minutes",
+                        "45 minutes"
+                    ],
+        "answerIndex":  3,
+        "category":  "Rules",
+        "difficulty":  "easy",
+        "isActive":  true
+    },
+    {
+        "question":  "What restarts play after the ball fully crosses the touchline?",
+        "options":  [
+                        "Goal kick",
+                        "Corner kick",
+                        "Throw-in",
+                        "Penalty kick"
+                    ],
+        "answerIndex":  2,
+        "category":  "Rules",
+        "difficulty":  "easy",
+        "isActive":  true
+    },
+    {
+        "question":  "What restart is given when the attacking team last touches the ball before it crosses the goal line without a goal?",
+        "options":  [
+                        "Goal kick",
+                        "Corner kick",
+                        "Throw-in",
+                        "Free kick"
+                    ],
+        "answerIndex":  0,
+        "category":  "Rules",
+        "difficulty":  "easy",
+        "isActive":  true
+    },
+    {
+        "question":  "What restart is given when the defending team last touches the ball before it crosses their own goal line without a goal?",
+        "options":  [
+                        "Goal kick",
+                        "Corner kick",
+                        "Throw-in",
+                        "Dropped ball"
+                    ],
+        "answerIndex":  1,
+        "category":  "Rules",
+        "difficulty":  "easy",
+        "isActive":  true
+    },
+    {
+        "question":  "Which body publishes the Laws of the Game?",
+        "options":  [
+                        "IFAB",
+                        "UEFA",
+                        "CONMEBOL",
+                        "CAF"
+                    ],
+        "answerIndex":  0,
+        "category":  "Rules",
+        "difficulty":  "hard",
+        "isActive":  true
+    },
+    {
+        "question":  "What is the maximum number of players from one team allowed on the pitch during play?",
+        "options":  [
+                        "9",
+                        "10",
+                        "11",
+                        "12"
+                    ],
+        "answerIndex":  2,
+        "category":  "Rules",
+        "difficulty":  "easy",
+        "isActive":  true
+    },
+    {
+        "question":  "Which part of the body is generally not allowed for outfield players to deliberately use on the ball?",
+        "options":  [
+                        "Head",
+                        "Chest",
+                        "Hands or arms",
+                        "Feet"
+                    ],
+        "answerIndex":  2,
+        "category":  "Rules",
+        "difficulty":  "easy",
+        "isActive":  true
+    },
+    {
+        "question":  "What is a clean sheet?",
+        "options":  [
+                        "A match with no fouls",
+                        "A match where a team concedes no goals",
+                        "A match with no cards",
+                        "A match with no substitutions"
+                    ],
+        "answerIndex":  1,
+        "category":  "Rules",
+        "difficulty":  "easy",
+        "isActive":  true
+    },
+    {
+        "question":  "What is a hat-trick?",
+        "options":  [
+                        "Three goals by one player in a match",
+                        "Three yellow cards",
+                        "Three saves in a row",
+                        "Three corners in a match"
+                    ],
+        "answerIndex":  0,
+        "category":  "Rules",
+        "difficulty":  "easy",
+        "isActive":  true
+    },
+    {
+        "question":  "What does offside mainly prevent?",
+        "options":  [
+                        "Goalkeepers leaving the box",
+                        "Players gaining unfair attacking position",
+                        "Defenders crossing halfway",
+                        "Teams making substitutions"
+                    ],
+        "answerIndex":  1,
+        "category":  "Rules",
+        "difficulty":  "medium",
+        "isActive":  true
+    },
+    {
+        "question":  "Which tournament is played by European national teams?",
+        "options":  [
+                        "Copa America",
+                        "AFCON",
+                        "UEFA Euro",
+                        "AFC Asian Cup"
+                    ],
+        "answerIndex":  2,
+        "category":  "International",
+        "difficulty":  "easy",
+        "isActive":  true
+    },
+    {
+        "question":  "Which tournament is played by African national teams?",
+        "options":  [
+                        "AFCON",
+                        "UEFA Euro",
+                        "Copa America",
+                        "Gold Cup"
+                    ],
+        "answerIndex":  0,
+        "category":  "International",
+        "difficulty":  "easy",
+        "isActive":  true
+    },
+    {
+        "question":  "Which tournament is played by South American national teams?",
+        "options":  [
+                        "Copa America",
+                        "AFCON",
+                        "AFC Asian Cup",
+                        "UEFA Nations League"
+                    ],
+        "answerIndex":  0,
+        "category":  "International",
+        "difficulty":  "easy",
+        "isActive":  true
+    },
+    {
+        "question":  "Which country won UEFA Euro 2016?",
+        "options":  [
+                        "France",
+                        "Portugal",
+                        "Germany",
+                        "Spain"
+                    ],
+        "answerIndex":  1,
+        "category":  "International",
+        "difficulty":  "easy",
+        "isActive":  true
+    },
+    {
+        "question":  "Which country won UEFA Euro 2020?",
+        "options":  [
+                        "England",
+                        "Italy",
+                        "Spain",
+                        "Denmark"
+                    ],
+        "answerIndex":  1,
+        "category":  "International",
+        "difficulty":  "easy",
+        "isActive":  true
+    },
+    {
+        "question":  "Which country won Copa America 2021?",
+        "options":  [
+                        "Brazil",
+                        "Argentina",
+                        "Chile",
+                        "Uruguay"
+                    ],
+        "answerIndex":  1,
+        "category":  "International",
+        "difficulty":  "easy",
+        "isActive":  true
+    },
+    {
+        "question":  "Which country won AFCON 2019?",
+        "options":  [
+                        "Senegal",
+                        "Algeria",
+                        "Egypt",
+                        "Nigeria"
+                    ],
+        "answerIndex":  1,
+        "category":  "International",
+        "difficulty":  "medium",
+        "isActive":  true
+    },
+    {
+        "question":  "Which country won AFCON 2021?",
+        "options":  [
+                        "Egypt",
+                        "Senegal",
+                        "Morocco",
+                        "Cameroon"
+                    ],
+        "answerIndex":  1,
+        "category":  "International",
+        "difficulty":  "medium",
+        "isActive":  true
+    },
+    {
+        "question":  "Which country won the 2019 FIFA Women\u0027s World Cup?",
+        "options":  [
+                        "Netherlands",
+                        "United States",
+                        "Sweden",
+                        "England"
+                    ],
+        "answerIndex":  1,
+        "category":  "International",
+        "difficulty":  "medium",
+        "isActive":  true
+    },
+    {
+        "question":  "Which country won the 2023 FIFA Women\u0027s World Cup?",
+        "options":  [
+                        "England",
+                        "Spain",
+                        "United States",
+                        "Japan"
+                    ],
+        "answerIndex":  1,
+        "category":  "International",
+        "difficulty":  "medium",
+        "isActive":  true
+    },
+    {
+        "question":  "Which nation is nicknamed La Roja?",
+        "options":  [
+                        "Spain",
+                        "Germany",
+                        "Brazil",
+                        "Netherlands"
+                    ],
+        "answerIndex":  0,
+        "category":  "International",
+        "difficulty":  "medium",
+        "isActive":  true
+    },
+    {
+        "question":  "Which nation is nicknamed the Azzurri?",
+        "options":  [
+                        "France",
+                        "Italy",
+                        "Argentina",
+                        "Portugal"
+                    ],
+        "answerIndex":  1,
+        "category":  "International",
+        "difficulty":  "medium",
+        "isActive":  true
+    },
+    {
+        "question":  "Which nation is nicknamed the Selecao?",
+        "options":  [
+                        "Brazil",
+                        "Mexico",
+                        "Uruguay",
+                        "Chile"
+                    ],
+        "answerIndex":  0,
+        "category":  "International",
+        "difficulty":  "medium",
+        "isActive":  true
+    },
+    {
+        "question":  "Which nation is nicknamed the Three Lions?",
+        "options":  [
+                        "England",
+                        "Scotland",
+                        "Wales",
+                        "Ireland"
+                    ],
+        "answerIndex":  0,
+        "category":  "International",
+        "difficulty":  "easy",
+        "isActive":  true
+    },
+    {
+        "question":  "Which club is associated with the motto You\u0027ll Never Walk Alone?",
+        "options":  [
+                        "Liverpool",
+                        "Arsenal",
+                        "Chelsea",
+                        "Tottenham Hotspur"
+                    ],
+        "answerIndex":  0,
+        "category":  "Clubs",
+        "difficulty":  "easy",
+        "isActive":  true
+    },
+    {
+        "question":  "Which Spanish club plays home matches at the Santiago Bernabeu?",
+        "options":  [
+                        "Barcelona",
+                        "Real Madrid",
+                        "Atletico Madrid",
+                        "Sevilla"
+                    ],
+        "answerIndex":  1,
+        "category":  "Clubs",
+        "difficulty":  "easy",
+        "isActive":  true
+    },
+    {
+        "question":  "Which Spanish club plays home matches at Camp Nou?",
+        "options":  [
+                        "Barcelona",
+                        "Real Madrid",
+                        "Valencia",
+                        "Villarreal"
+                    ],
+        "answerIndex":  0,
+        "category":  "Clubs",
+        "difficulty":  "easy",
+        "isActive":  true
+    },
+    {
+        "question":  "Which Italian club is nicknamed the Rossoneri?",
+        "options":  [
+                        "AC Milan",
+                        "Inter Milan",
+                        "Juventus",
+                        "Napoli"
+                    ],
+        "answerIndex":  0,
+        "category":  "Clubs",
+        "difficulty":  "medium",
+        "isActive":  true
+    },
+    {
+        "question":  "Which Italian club is nicknamed the Nerazzurri?",
+        "options":  [
+                        "AC Milan",
+                        "Inter Milan",
+                        "Roma",
+                        "Lazio"
+                    ],
+        "answerIndex":  1,
+        "category":  "Clubs",
+        "difficulty":  "medium",
+        "isActive":  true
+    },
+    {
+        "question":  "Which Italian club is nicknamed the Bianconeri?",
+        "options":  [
+                        "Juventus",
+                        "Napoli",
+                        "Fiorentina",
+                        "Torino"
+                    ],
+        "answerIndex":  0,
+        "category":  "Clubs",
+        "difficulty":  "medium",
+        "isActive":  true
+    },
+    {
+        "question":  "Which German club is based in Munich?",
+        "options":  [
+                        "Borussia Dortmund",
+                        "Bayern Munich",
+                        "RB Leipzig",
+                        "Bayer Leverkusen"
+                    ],
+        "answerIndex":  1,
+        "category":  "Clubs",
+        "difficulty":  "easy",
+        "isActive":  true
+    },
+    {
+        "question":  "Which German club is known for the Yellow Wall?",
+        "options":  [
+                        "Bayern Munich",
+                        "Borussia Dortmund",
+                        "Schalke",
+                        "Hamburg"
+                    ],
+        "answerIndex":  1,
+        "category":  "Clubs",
+        "difficulty":  "medium",
+        "isActive":  true
+    },
+    {
+        "question":  "Which French club plays home matches at Parc des Princes?",
+        "options":  [
+                        "Marseille",
+                        "Lyon",
+                        "Paris Saint-Germain",
+                        "Monaco"
+                    ],
+        "answerIndex":  2,
+        "category":  "Clubs",
+        "difficulty":  "easy",
+        "isActive":  true
+    },
+    {
+        "question":  "Which Portuguese club is nicknamed the Dragons?",
+        "options":  [
+                        "Benfica",
+                        "Porto",
+                        "Sporting CP",
+                        "Braga"
+                    ],
+        "answerIndex":  1,
+        "category":  "Clubs",
+        "difficulty":  "medium",
+        "isActive":  true
+    },
+    {
+        "question":  "Which Portuguese club is nicknamed the Eagles?",
+        "options":  [
+                        "Benfica",
+                        "Porto",
+                        "Sporting CP",
+                        "Boavista"
+                    ],
+        "answerIndex":  0,
+        "category":  "Clubs",
+        "difficulty":  "medium",
+        "isActive":  true
+    },
+    {
+        "question":  "Which Dutch club is based in Amsterdam?",
+        "options":  [
+                        "PSV",
+                        "Ajax",
+                        "Feyenoord",
+                        "AZ Alkmaar"
+                    ],
+        "answerIndex":  1,
+        "category":  "Clubs",
+        "difficulty":  "easy",
+        "isActive":  true
+    },
+    {
+        "question":  "Which Dutch club is based in Rotterdam?",
+        "options":  [
+                        "Ajax",
+                        "PSV",
+                        "Feyenoord",
+                        "Twente"
+                    ],
+        "answerIndex":  2,
+        "category":  "Clubs",
+        "difficulty":  "medium",
+        "isActive":  true
+    },
+    {
+        "question":  "Which club won the European Cup in 1995 with a young Ajax team?",
+        "options":  [
+                        "Ajax",
+                        "AC Milan",
+                        "Juventus",
+                        "Barcelona"
+                    ],
+        "answerIndex":  0,
+        "category":  "Clubs",
+        "difficulty":  "hard",
+        "isActive":  true
+    },
+    {
+        "question":  "Which club did Jose Mourinho lead to Champions League glory in 2004?",
+        "options":  [
+                        "Chelsea",
+                        "Porto",
+                        "Inter Milan",
+                        "Real Madrid"
+                    ],
+        "answerIndex":  1,
+        "category":  "Clubs",
+        "difficulty":  "medium",
+        "isActive":  true
+    },
+    {
+        "question":  "Which club did Jose Mourinho lead to Champions League glory in 2010?",
+        "options":  [
+                        "Chelsea",
+                        "Inter Milan",
+                        "Porto",
+                        "Manchester United"
+                    ],
+        "answerIndex":  1,
+        "category":  "Clubs",
+        "difficulty":  "medium",
+        "isActive":  true
+    },
+    {
+        "question":  "Which club won the treble under Sir Alex Ferguson in 1999?",
+        "options":  [
+                        "Manchester United",
+                        "Arsenal",
+                        "Chelsea",
+                        "Liverpool"
+                    ],
+        "answerIndex":  0,
+        "category":  "Clubs",
+        "difficulty":  "easy",
+        "isActive":  true
+    },
+    {
+        "question":  "Which competition did Manchester United win in 1999 to complete the treble?",
+        "options":  [
+                        "Champions League",
+                        "Europa League",
+                        "Club World Cup",
+                        "Community Shield"
+                    ],
+        "answerIndex":  0,
+        "category":  "Clubs",
+        "difficulty":  "easy",
+        "isActive":  true
+    },
+    {
+        "question":  "Which club is nicknamed Los Blancos?",
+        "options":  [
+                        "Real Madrid",
+                        "Barcelona",
+                        "Sevilla",
+                        "Valencia"
+                    ],
+        "answerIndex":  0,
+        "category":  "Clubs",
+        "difficulty":  "easy",
+        "isActive":  true
+    },
+    {
+        "question":  "Which club is nicknamed Blaugrana?",
+        "options":  [
+                        "Barcelona",
+                        "Real Madrid",
+                        "Atletico Madrid",
+                        "Villarreal"
+                    ],
+        "answerIndex":  0,
+        "category":  "Clubs",
+        "difficulty":  "medium",
+        "isActive":  true
+    },
+    {
+        "question":  "Which country is Lionel Messi from?",
+        "options":  [
+                        "Brazil",
+                        "Argentina",
+                        "Spain",
+                        "Uruguay"
+                    ],
+        "answerIndex":  1,
+        "category":  "Players",
+        "difficulty":  "easy",
+        "isActive":  true
+    },
+    {
+        "question":  "Which country is Cristiano Ronaldo from?",
+        "options":  [
+                        "Portugal",
+                        "Spain",
+                        "Brazil",
+                        "Argentina"
+                    ],
+        "answerIndex":  0,
+        "category":  "Players",
+        "difficulty":  "easy",
+        "isActive":  true
+    },
+    {
+        "question":  "Which country is Neymar from?",
+        "options":  [
+                        "Argentina",
+                        "Brazil",
+                        "Portugal",
+                        "Colombia"
+                    ],
+        "answerIndex":  1,
+        "category":  "Players",
+        "difficulty":  "easy",
+        "isActive":  true
+    },
+    {
+        "question":  "Which country is Erling Haaland from?",
+        "options":  [
+                        "Sweden",
+                        "Denmark",
+                        "Norway",
+                        "Finland"
+                    ],
+        "answerIndex":  2,
+        "category":  "Players",
+        "difficulty":  "easy",
+        "isActive":  true
+    },
+    {
+        "question":  "Which country is Mohamed Salah from?",
+        "options":  [
+                        "Egypt",
+                        "Morocco",
+                        "Algeria",
+                        "Tunisia"
+                    ],
+        "answerIndex":  0,
+        "category":  "Players",
+        "difficulty":  "easy",
+        "isActive":  true
+    },
+    {
+        "question":  "Which country is Sadio Mane from?",
+        "options":  [
+                        "Senegal",
+                        "Ghana",
+                        "Nigeria",
+                        "Cameroon"
+                    ],
+        "answerIndex":  0,
+        "category":  "Players",
+        "difficulty":  "easy",
+        "isActive":  true
+    },
+    {
+        "question":  "Which country is Kylian Mbappe from?",
+        "options":  [
+                        "Belgium",
+                        "France",
+                        "Switzerland",
+                        "Canada"
+                    ],
+        "answerIndex":  1,
+        "category":  "Players",
+        "difficulty":  "easy",
+        "isActive":  true
+    },
+    {
+        "question":  "Which country is Luka Modric from?",
+        "options":  [
+                        "Serbia",
+                        "Croatia",
+                        "Slovenia",
+                        "Bosnia and Herzegovina"
+                    ],
+        "answerIndex":  1,
+        "category":  "Players",
+        "difficulty":  "easy",
+        "isActive":  true
+    },
+    {
+        "question":  "Which country is Robert Lewandowski from?",
+        "options":  [
+                        "Poland",
+                        "Germany",
+                        "Czech Republic",
+                        "Slovakia"
+                    ],
+        "answerIndex":  0,
+        "category":  "Players",
+        "difficulty":  "easy",
+        "isActive":  true
+    },
+    {
+        "question":  "Which country is Son Heung-min from?",
+        "options":  [
+                        "Japan",
+                        "South Korea",
+                        "China",
+                        "Australia"
+                    ],
+        "answerIndex":  1,
+        "category":  "Players",
+        "difficulty":  "easy",
+        "isActive":  true
+    },
+    {
+        "question":  "Which country is Didier Drogba from?",
+        "options":  [
+                        "Ivory Coast",
+                        "Ghana",
+                        "Cameroon",
+                        "Senegal"
+                    ],
+        "answerIndex":  0,
+        "category":  "Players",
+        "difficulty":  "medium",
+        "isActive":  true
+    },
+    {
+        "question":  "Which country is Samuel Eto\u0027o from?",
+        "options":  [
+                        "Nigeria",
+                        "Cameroon",
+                        "Ghana",
+                        "Mali"
+                    ],
+        "answerIndex":  1,
+        "category":  "Players",
+        "difficulty":  "medium",
+        "isActive":  true
+    },
+    {
+        "question":  "Which country is George Weah from?",
+        "options":  [
+                        "Liberia",
+                        "Ghana",
+                        "Nigeria",
+                        "Sierra Leone"
+                    ],
+        "answerIndex":  0,
+        "category":  "Players",
+        "difficulty":  "hard",
+        "isActive":  true
+    },
+    {
+        "question":  "Which player became the first African Ballon d\u0027Or winner?",
+        "options":  [
+                        "Didier Drogba",
+                        "Samuel Eto\u0027o",
+                        "George Weah",
+                        "Yaya Toure"
+                    ],
+        "answerIndex":  2,
+        "category":  "Players",
+        "difficulty":  "hard",
+        "isActive":  true
+    },
+    {
+        "question":  "Which club did George Weah play for when he won the Ballon d\u0027Or in 1995?",
+        "options":  [
+                        "AC Milan",
+                        "Chelsea",
+                        "Monaco",
+                        "Paris Saint-Germain"
+                    ],
+        "answerIndex":  0,
+        "category":  "Players",
+        "difficulty":  "hard",
+        "isActive":  true
+    },
+    {
+        "question":  "Which player is known as The Special One as a manager?",
+        "options":  [
+                        "Jose Mourinho",
+                        "Pep Guardiola",
+                        "Carlo Ancelotti",
+                        "Jurgen Klopp"
+                    ],
+        "answerIndex":  0,
+        "category":  "Managers",
+        "difficulty":  "easy",
+        "isActive":  true
+    },
+    {
+        "question":  "Which manager is famous for gegenpressing with Borussia Dortmund and Liverpool?",
+        "options":  [
+                        "Jurgen Klopp",
+                        "Diego Simeone",
+                        "Arsene Wenger",
+                        "Antonio Conte"
+                    ],
+        "answerIndex":  0,
+        "category":  "Managers",
+        "difficulty":  "medium",
+        "isActive":  true
+    },
+    {
+        "question":  "Which manager led Arsenal\u0027s Invincibles?",
+        "options":  [
+                        "Arsene Wenger",
+                        "Sir Alex Ferguson",
+                        "Jose Mourinho",
+                        "Unai Emery"
+                    ],
+        "answerIndex":  0,
+        "category":  "Managers",
+        "difficulty":  "easy",
+        "isActive":  true
+    },
+    {
+        "question":  "Which manager led Spain to the 2010 World Cup title?",
+        "options":  [
+                        "Vicente del Bosque",
+                        "Luis Aragones",
+                        "Luis Enrique",
+                        "Rafael Benitez"
+                    ],
+        "answerIndex":  0,
+        "category":  "Managers",
+        "difficulty":  "medium",
+        "isActive":  true
+    },
+    {
+        "question":  "Which manager led Germany to the 2014 World Cup title?",
+        "options":  [
+                        "Jurgen Klinsmann",
+                        "Joachim Low",
+                        "Hansi Flick",
+                        "Rudi Voller"
+                    ],
+        "answerIndex":  1,
+        "category":  "Managers",
+        "difficulty":  "medium",
+        "isActive":  true
+    },
+    {
+        "question":  "Which manager led France to the 2018 World Cup title?",
+        "options":  [
+                        "Didier Deschamps",
+                        "Laurent Blanc",
+                        "Zinedine Zidane",
+                        "Raymond Domenech"
+                    ],
+        "answerIndex":  0,
+        "category":  "Managers",
+        "difficulty":  "medium",
+        "isActive":  true
+    },
+    {
+        "question":  "Which manager led Argentina to the 2022 World Cup title?",
+        "options":  [
+                        "Lionel Scaloni",
+                        "Marcelo Bielsa",
+                        "Diego Simeone",
+                        "Gerardo Martino"
+                    ],
+        "answerIndex":  0,
+        "category":  "Managers",
+        "difficulty":  "medium",
+        "isActive":  true
+    },
+    {
+        "question":  "Which manager won Champions League titles with AC Milan and Real Madrid?",
+        "options":  [
+                        "Carlo Ancelotti",
+                        "Pep Guardiola",
+                        "Jose Mourinho",
+                        "Rafa Benitez"
+                    ],
+        "answerIndex":  0,
+        "category":  "Managers",
+        "difficulty":  "medium",
+        "isActive":  true
+    },
+    {
+        "question":  "Which manager led Barcelona to Champions League titles in 2009 and 2011?",
+        "options":  [
+                        "Frank Rijkaard",
+                        "Pep Guardiola",
+                        "Luis Enrique",
+                        "Tito Vilanova"
+                    ],
+        "answerIndex":  1,
+        "category":  "Managers",
+        "difficulty":  "medium",
+        "isActive":  true
+    },
+    {
+        "question":  "Which manager led Chelsea to the 2012 Champions League title?",
+        "options":  [
+                        "Roberto Di Matteo",
+                        "Jose Mourinho",
+                        "Carlo Ancelotti",
+                        "Antonio Conte"
+                    ],
+        "answerIndex":  0,
+        "category":  "Managers",
+        "difficulty":  "hard",
+        "isActive":  true
+    },
+    {
+        "question":  "Which manager led Liverpool to the 2019 Champions League title?",
+        "options":  [
+                        "Jurgen Klopp",
+                        "Rafael Benitez",
+                        "Brendan Rodgers",
+                        "Kenny Dalglish"
+                    ],
+        "answerIndex":  0,
+        "category":  "Managers",
+        "difficulty":  "easy",
+        "isActive":  true
+    }
+]

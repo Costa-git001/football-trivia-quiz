@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "73961452026",
+    "project_id": "questionsquiz-c52b1",
+    "storage_bucket": "questionsquiz-c52b1.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:73961452026:android:e5742db70988cee820b443",
+        "android_client_info": {
+          "package_name": "com.example.costa_trivia_quiz"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA0RbGAMvIbLRnbiFtA5O6v00hma4UWkbM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

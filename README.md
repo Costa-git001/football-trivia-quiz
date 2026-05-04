@@ -1,70 +1,122 @@
-# ⚽ Football Trivia Quiz App
+# Costa Trivia Quiz
 
-A fun and interactive football quiz mobile app built using Flutter.  
-Test your football knowledge with timed questions, track your score, and challenge your friends.
+Costa Trivia Quiz is a beginner-friendly Flutter football trivia game with a
+modern mobile UI, timed questions, Firestore-backed content, and a local
+leaderboard.
 
----
+## Features
 
-## 🚀 Features
+- Player name input before each game
+- Category selection: Premier League, Champions League, World Cup, Players, Rules, International, Clubs, and Managers
+- Difficulty selection: Easy, Medium, and Hard
+- Randomized question sessions with no repeats in a single game
+- Countdown timer for every question
+- Auto-move when the timer runs out
+- Instant answer feedback with green/red highlighting
+- Correct answer reveal after wrong answers or timeout
+- Score system with correct-answer points, wrong-answer penalty, and speed bonus
+- Final result screen with performance message
+- Local leaderboard saved with SharedPreferences
+- Firestore question fetching with local fallback questions
+- Upload script for importing `questions.json` into Firestore
+- Simple built-in sound feedback
 
-- ⏱️ Timed quiz questions
-- 🎯 Score tracking system
-- 📱 Clean and responsive UI
-- 🔄 Multiple-choice questions
-- 🧠 Questions from different football categories
+## Project Structure
 
----
+```text
+lib/
+├── data/
+├── models/
+├── screens/
+├── services/
+└── widgets/
+```
 
-## 🛠️ Built With
+## Firestore Questions
 
-- Flutter
-- Dart
+The app reads active quiz questions from the Firestore `questions` collection.
+Each document should use this shape:
 
-## 🎮 How It Works
+```json
+{
+  "question": "Who won the 2018 FIFA World Cup?",
+  "options": ["France", "Brazil", "Germany", "Argentina"],
+  "answerIndex": 0,
+  "category": "World Cup",
+  "difficulty": "easy",
+  "isActive": true
+}
+```
 
-1. Start the quiz
-2. Answer questions within the time limit
-3. Earn points for correct answers
-4. View your final score
+The repository includes `questions.json` with 150 football trivia questions.
 
-## 🚀 Latest Updates
+## Upload Questions To Firestore
 
-### 🎮 Gameplay Improvements
-- Added player name input before starting the quiz
-- Category selection (e.g., leagues, competitions)
-- Difficulty levels (Easy, Medium, Hard)
-
-### 🧠 Smarter Quiz Engine
-- Questions now organized by category and difficulty
-- Randomized sessions with no repeated questions
-- Improved scoring system:
-  - +10 for correct answers
-  - ⏱️ Speed bonus for fast responses
-  - -5 for wrong answers or timeouts
-
-### 🎨 UI/UX Enhancements
-- Instant feedback (green = correct, red = wrong)
-- Timeout answer reveal
-- Progress indicator (e.g., Question 3/10)
-- Animated answer cards
-- Smooth screen transitions
-
-### 🏆 Results & Leaderboard
-- Detailed result screen with performance messages
-- Displays score, category, and difficulty
-- Local leaderboard using SharedPreferences
-
-### 🧩 Code Structure Improvements
-- Modular architecture with reusable widgets
-- Organized folders (screens, widgets, services, models)
-- Updated tests to match new app flow
-
----
-
-## 🔧 Installation
+Install Node dependencies:
 
 ```bash
-git clone https://github.com/your-username/your-repo-name.git
-cd your-repo-name
-flutter pub get
-flutter run
+npm.cmd install
+```
+
+Place your Firebase Admin SDK service account file in the project root as:
+
+```text
+serviceAccountKey.json
+```
+
+Then upload:
+
+```bash
+npm.cmd run upload:questions
+```
+
+Important: `serviceAccountKey.json` is ignored by git and should never be uploaded
+to GitHub.
+
+## Firebase Setup
+
+Before running against Firestore, configure Firebase for Flutter from the project
+folder:
+
+```bash
+dart pub global activate flutterfire_cli
+flutterfire configure
+```
+
+That command creates `lib/firebase_options.dart` and platform Firebase config files.
+The app also includes fallback questions, so it can still open before Firebase is configured.
+
+## Run The App
+
+1. Install Flutter from https://docs.flutter.dev/get-started/install
+2. Open this folder in a terminal.
+3. Install Flutter packages:
+
+   ```bash
+   flutter pub get
+   ```
+
+4. Run the app:
+
+   ```bash
+   flutter run
+   ```
+
+If multiple devices are connected, list them with:
+
+```bash
+flutter devices
+```
+
+Then run on a specific device:
+
+```bash
+flutter run -d DEVICE_ID
+```
+
+## Verification
+
+```bash
+flutter analyze
+flutter test
+```
