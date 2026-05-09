@@ -113,10 +113,16 @@ class _StartScreenState extends State<StartScreen> {
           padding: const EdgeInsets.all(24),
           children: [
             const SizedBox(height: 12),
-            const Icon(
-              Icons.sports_soccer,
-              size: 78,
-              color: Color(0xFF0F8A5F),
+            Center(
+              child: ClipRRect(
+                borderRadius: BorderRadius.circular(26),
+                child: Image.asset(
+                  'assets/images/profile_picture.png',
+                  width: 104,
+                  height: 104,
+                  fit: BoxFit.cover,
+                ),
+              ),
             ),
             const SizedBox(height: 18),
             Text(
@@ -134,6 +140,17 @@ class _StartScreenState extends State<StartScreen> {
               style: Theme.of(context).textTheme.bodyLarge?.copyWith(
                     color: const Color(0xFF52616B),
                   ),
+            ),
+            const SizedBox(height: 22),
+            ClipRRect(
+              borderRadius: BorderRadius.circular(18),
+              child: AspectRatio(
+                aspectRatio: 16 / 9,
+                child: Image.asset(
+                  'assets/images/quiz_ui_hero.png',
+                  fit: BoxFit.cover,
+                ),
+              ),
             ),
             const SizedBox(height: 22),
             TextField(

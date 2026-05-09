@@ -6,6 +6,8 @@ leaderboard.
 
 ## Features
 
+![Costa Trivia Quiz app artwork](assets/images/quiz_ui_hero.png)
+
 - Player name input before each game
 - Category selection: Premier League, Champions League, World Cup, Players, Rules, International, Clubs, and Managers
 - Difficulty selection: Easy, Medium, and Hard
@@ -24,6 +26,8 @@ leaderboard.
 ## Project Structure
 
 ```text
+assets/
+└── images/
 lib/
 ├── data/
 ├── models/
@@ -31,6 +35,11 @@ lib/
 ├── services/
 └── widgets/
 ```
+
+## Generated Artwork
+
+- `assets/images/profile_picture.png` - square profile/app image
+- `assets/images/quiz_ui_hero.png` - wide UI artwork for the app and README
 
 ## Firestore Questions
 

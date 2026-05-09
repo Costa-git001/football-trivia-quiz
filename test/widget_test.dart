@@ -14,6 +14,10 @@ void main() {
     await tester.pumpAndSettle();
 
     expect(find.text('Costa Trivia Quiz'), findsOneWidget);
+
+    await tester.drag(find.byType(ListView), const Offset(0, -450));
+    await tester.pumpAndSettle();
+
     expect(find.text('Player name'), findsOneWidget);
 
     await tester.drag(find.byType(ListView), const Offset(0, -700));
